@@ -1,3 +1,33 @@
 // Place all the styles related to the posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1{text-align: center;
+}
+
+#inner{
+    border: solid white;
+}
+
+#outer{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    border: solid white;
+}
+
+textarea#post_body{
+    resize: none;
+}
+
+body{
+    background-image: image-url('gradation.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
